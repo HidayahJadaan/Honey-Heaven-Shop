@@ -45,6 +45,7 @@ header {
   color: var(--text-color);
   font-size: 33px;
   font-weight: 700;
+  font-family: 'Dancing Script', cursive;
 }
 
 .logo i {
