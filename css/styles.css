@@ -35,8 +35,10 @@ header {
   align-items: center;
   background: transparent;
   justify-content: space-between;
-  padding: 40px 14%;
+  padding: 25px 14%;
   transition: all 0.5s all;
+  box-shadow: #ff9f0d 0px 1px 25px;
+
 }
 
 .logo {
@@ -115,7 +117,7 @@ section {
 }
 
 .home-img img {
-  width: 100%;
+  width: 90%;
   height: auto;
   cursor: pointer;
   transition: transform 1.5s ease;
@@ -231,6 +233,10 @@ header.sticky {
   color: var(--main-color);
 }
 
+
+
+
+
 .about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -283,6 +289,8 @@ header.sticky {
   padding: 10px 35px 40px;
   background-color: var(--other-color);
   border-radius: 3rem;
+  box-shadow: #ff9f0d 0px 1px 15px;
+
 }
 .row img {
   width: 90%;
